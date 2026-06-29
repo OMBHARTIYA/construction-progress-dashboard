@@ -1,0 +1,4 @@
+ProjectID,ProjectName,ClientName,Country,City,ProjectType,StartDate,PlannedEndDate,ProjectManager,ProjectStatus
+PRJ-001,Riverside Tower,Demo Client One,United Kingdom,Asterford,Residential High-Rise,2025-01-13,2027-10-29,Demo User 01,Execution
+PRJ-002,Northline Campus,Demo Client Two,Germany,Lindenhafen,Mixed-Use Campus,2025-03-03,2027-12-17,Demo User 02,Execution
+PRJ-003,Harbor Point,Demo Client Three,Netherlands,Westhaven,Commercial Waterfront,2025-05-19,2028-02-25,Demo User 03,Mobilization

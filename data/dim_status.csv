@@ -1,0 +1,10 @@
+StatusID,StatusName,StatusGroup,StatusOrder,ProgressWeight,IsFinalStatus
+STS-001,Not Started,Planning,1,0.00,FALSE
+STS-002,Released,Planning,2,0.10,FALSE
+STS-003,In Production,Production,3,0.30,FALSE
+STS-004,Produced,Production,4,0.50,FALSE
+STS-005,Delivered,Logistics,5,0.70,FALSE
+STS-006,Installed,Site,6,0.90,FALSE
+STS-007,Approved,Complete,7,1.00,TRUE
+STS-008,Blocked,Exception,8,0.00,FALSE
+STS-009,Rework,Exception,9,0.40,FALSE

@@ -1,0 +1,9 @@
+BuildingID,ProjectID,BuildingName,BuildingType,TotalFloors
+BLD-001-01,PRJ-001,Tower A,Residential,9
+BLD-001-02,PRJ-001,Tower B,Residential,9
+BLD-001-03,PRJ-001,Podium,Mixed Use,6
+BLD-002-01,PRJ-002,North Block,Office,8
+BLD-002-02,PRJ-002,Central Block,Laboratory,8
+BLD-002-03,PRJ-002,South Block,Office,7
+BLD-003-01,PRJ-003,Pier East,Commercial,7
+BLD-003-02,PRJ-003,Pier West,Commercial,7

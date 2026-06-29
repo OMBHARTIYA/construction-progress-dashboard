@@ -1,0 +1,9 @@
+DisciplineID,DisciplineName,DisciplineGroup
+DSC-001,Structural,Core Build
+DSC-002,Architectural,Finishes
+DSC-003,Mechanical,MEP
+DSC-004,Electrical,MEP
+DSC-005,Plumbing,MEP
+DSC-006,Fire Protection,Safety
+DSC-007,Facade,Envelope
+DSC-008,Interior Fit-Out,Finishes
