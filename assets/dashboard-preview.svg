@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+  <style>
+    .title { font: 700 34px Arial, sans-serif; fill: #12202a; }
+    .subtitle { font: 400 16px Arial, sans-serif; fill: #5b6a72; }
+    .label { font: 700 15px Arial, sans-serif; fill: #25333b; }
+    .metric { font: 800 32px Arial, sans-serif; fill: #12202a; }
+    .small { font: 400 13px Arial, sans-serif; fill: #5b6a72; }
+  </style>
+  <rect width="1000" height="620" fill="#fbfcfc"/>
+  <rect x="38" y="34" width="924" height="552" rx="18" fill="#ffffff" stroke="#dce6e6"/>
+  <text x="70" y="92" class="title">Construction Progress Dashboard Preview</text>
+  <text x="70" y="124" class="subtitle">Synthetic Power BI-ready data model: progress, quality, delivery, and exception tracking.</text>
+  
+    <rect x="70" y="170" width="230" height="112" rx="10" fill="#e3f4f1" stroke="#d8e5e5"/>
+    <text x="88" y="204" class="label">Tracked Units</text>
+    <text x="88" y="242" class="metric">6,513</text>
+    <text x="88" y="266" class="small">Synthetic unit/package records</text>
+    
+  
+    <rect x="305" y="170" width="230" height="112" rx="10" fill="#fff5dd" stroke="#d8e5e5"/>
+    <text x="323" y="204" class="label">Completion</text>
+    <text x="323" y="242" class="metric">10.2%</text>
+    <text x="323" y="266" class="small">Units in final status</text>
+    
+  
+    <rect x="540" y="170" width="230" height="112" rx="10" fill="#fff0f1" stroke="#d8e5e5"/>
+    <text x="558" y="204" class="label">Open Issues</text>
+    <text x="558" y="242" class="metric">585</text>
+    <text x="558" y="266" class="small">Quality actions not closed</text>
+    
+  
+    <rect x="775" y="170" width="230" height="112" rx="10" fill="#f2eefc" stroke="#d8e5e5"/>
+    <text x="793" y="204" class="label">Delayed Deliveries</text>
+    <text x="793" y="242" class="metric">1,230</text>
+    <text x="793" y="266" class="small">Positive delivery delay</text>
+    
+  <text x="70" y="342" class="label">Completion by project</text>
+  
+    <text x="70" y="383" class="small">Riverside Tower 9.1%</text>
+    <rect x="70" y="390" width="500" height="16" rx="4" fill="#edf3f3"/>
+    <rect x="70" y="390" width="45" height="16" rx="4" fill="#00756f"/>
+    
+    <text x="70" y="441" class="small">Northline Campus 10.6%</text>
+    <rect x="70" y="448" width="500" height="16" rx="4" fill="#edf3f3"/>
+    <rect x="70" y="448" width="53" height="16" rx="4" fill="#d83a34"/>
+    
+    <text x="70" y="499" class="small">Harbor Point 11.4%</text>
+    <rect x="70" y="506" width="500" height="16" rx="4" fill="#edf3f3"/>
+    <rect x="70" y="506" width="57" height="16" rx="4" fill="#f2a52b"/>
+    
+  <text x="70" y="575" class="small">Generated from deterministic fake CSV data. Safe for public portfolio review.</text>
+</svg>

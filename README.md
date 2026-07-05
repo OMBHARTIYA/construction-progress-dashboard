@@ -4,6 +4,8 @@ This repository is a public, portfolio-safe Power BI demo built entirely with sy
 
 The project generates a realistic fictional construction-progress dataset as CSV files that can be imported into Power BI Desktop to build a dashboard covering progress tracking, plan vs actual performance, quality issues, and deliveries.
 
+![Synthetic construction dashboard preview](./assets/dashboard-preview.svg)
+
 ## Portfolio Safety
 
 Everything in this repository is generated from scratch for demonstration purposes.
@@ -63,12 +65,30 @@ python scripts/generate_fake_data.py
 
 The script writes all CSV files into `data/` and prints row counts after generation.
 
+Generate the reviewer-friendly KPI proof pack:
+
+```bash
+python scripts/build_dashboard_preview.py
+```
+
+This writes:
+
+- `data/reporting_kpis.csv`
+- `docs/kpi-proof-summary.md`
+- `assets/dashboard-preview.svg`
+
 ## Recommended Power BI Flow
 
 1. Import all CSV files from `data/`.
 2. Create relationships described in [docs/data-model.md](./docs/data-model.md).
 3. Add the measures from [docs/dax-measures.md](./docs/dax-measures.md).
 4. Build the report pages outlined in [docs/dashboard-pages.md](./docs/dashboard-pages.md).
+
+## Proof for Reviewers
+
+- [KPI proof summary](./docs/kpi-proof-summary.md): generated headline metrics and project completion summary.
+- [Dashboard preview SVG](./assets/dashboard-preview.svg): static visual preview created from the synthetic CSV outputs.
+- [Data model](./docs/data-model.md): star-schema relationships suitable for Power BI.
 
 ## Example Reporting Questions
 

@@ -1,0 +1,9 @@
+Metric,Value,Definition
+Projects,3,Synthetic construction projects.
+Units,6513,Generated units/packages tracked in the model.
+CompletionPercent,10.2,Units in final status divided by all units.
+BlockedUnits,445,Units currently in blocked status.
+ReworkUnits,443,Units currently in rework status.
+OpenIssues,585,Quality issues not yet closed.
+DelayedDeliveries,1230,Delivery records with positive delay.
+DeliveredOrDelayedPercent,81.9,Delivery records with an actual delivery event.
