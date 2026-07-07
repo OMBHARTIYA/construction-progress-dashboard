@@ -48,5 +48,5 @@
     <rect x="70" y="506" width="500" height="16" rx="4" fill="#edf3f3"/>
     <rect x="70" y="506" width="57" height="16" rx="4" fill="#f2a52b"/>
     
-  <text x="70" y="575" class="small">Generated from deterministic fake CSV data. Safe for public portfolio review.</text>
+  <text x="70" y="575" class="small">Generated from deterministic synthetic CSV data. Safe for public portfolio review.</text>
 </svg>

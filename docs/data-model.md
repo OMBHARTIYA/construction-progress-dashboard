@@ -1,6 +1,6 @@
 # Data Model
 
-This demo uses a star-schema-friendly structure centered on a fictional construction unit. A unit represents a progress-tracked item such as a module, room package, panel, equipment set, or installation package.
+This case study uses a star-schema-friendly structure centered on a synthetic construction unit. A unit represents a progress-tracked item such as a module, room package, panel, equipment set, or installation package.
 
 ## Dimension Tables
 
@@ -11,7 +11,7 @@ This demo uses a star-schema-friendly structure centered on a fictional construc
 - `dim_unit.csv`: the main reporting grain for tracked work items
 - `dim_status.csv`: status definitions and progress weights
 - `dim_discipline.csv`: disciplines such as structural, mechanical, electrical, and finishes
-- `dim_contractor.csv`: fictional contractors tied to activities and issues
+- `dim_contractor.csv`: synthetic contractors tied to activities and issues
 
 ## Fact Tables
 

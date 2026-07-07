@@ -1,9 +1,9 @@
 ContractorID,ContractorName,ContractorType,Country,City
-CTR-001,Demo Contractor A,General,United Kingdom,Asterford
-CTR-002,Demo Contractor B,Specialist,Germany,Lindenhafen
-CTR-003,Demo Contractor C,Logistics,Netherlands,Westhaven
-CTR-004,Demo Contractor D,Installation,United Kingdom,Northbridge
-CTR-005,Demo Contractor E,Quality,Germany,Elmstead
-CTR-006,Demo Contractor F,General,Netherlands,Brookfield
-CTR-007,Demo Contractor G,Specialist,United Kingdom,Asterford
-CTR-008,Demo Contractor H,Logistics,Germany,Lindenhafen
+CTR-001,Representative Contractor A,General,United Kingdom,Asterford
+CTR-002,Representative Contractor B,Specialist,Germany,Lindenhafen
+CTR-003,Representative Contractor C,Logistics,Netherlands,Westhaven
+CTR-004,Representative Contractor D,Installation,United Kingdom,Northbridge
+CTR-005,Representative Contractor E,Quality,Germany,Elmstead
+CTR-006,Representative Contractor F,General,Netherlands,Brookfield
+CTR-007,Representative Contractor G,Specialist,United Kingdom,Asterford
+CTR-008,Representative Contractor H,Logistics,Germany,Lindenhafen

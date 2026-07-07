@@ -1,8 +1,8 @@
-# Construction Progress Dashboard Demo
+# Construction Progress Dashboard Case Study
 
-This repository is a public, portfolio-safe Power BI demo built entirely with synthetic data. It does not contain any real company names, client names, API endpoints, BIM identifiers, screenshots, operational records, employer assets, or confidential implementation details.
+This repository is a public, portfolio-safe Power BI case study built with synthetic representative data. It does not contain any real company names, client names, API endpoints, BIM identifiers, screenshots, operational records, employer assets, or confidential implementation details.
 
-The project generates a realistic fictional construction-progress dataset as CSV files that can be imported into Power BI Desktop to build a dashboard covering progress tracking, plan vs actual performance, quality issues, and deliveries.
+The project generates a realistic construction-progress style dataset as CSV files that can be imported into Power BI Desktop to build a dashboard covering progress tracking, plan vs actual performance, quality issues, and deliveries.
 
 ![Synthetic construction dashboard preview](./assets/dashboard-preview.svg)
 
@@ -24,7 +24,7 @@ The original professional dashboard cannot be shared publicly, so this repo uses
 
 ## Portfolio Safety
 
-Everything in this repository is generated from scratch for demonstration purposes.
+Everything in this repository is generated from scratch for public portfolio review.
 
 It does not include:
 
@@ -38,7 +38,7 @@ It does not include:
 ## Repository Structure
 
 ```text
-construction-progress-dashboard-demo/
+construction-progress-dashboard/
 ├── README.md
 ├── data/
 │   ├── dim_project.csv
@@ -58,7 +58,7 @@ construction-progress-dashboard-demo/
 │   ├── dashboard-pages.md
 │   └── dax-measures.md
 └── scripts/
-    └── generate_fake_data.py
+    └── generate_synthetic_data.py
 ```
 
 ## What It Demonstrates
@@ -76,7 +76,7 @@ construction-progress-dashboard-demo/
 Run the generator from the repository root:
 
 ```bash
-python scripts/generate_fake_data.py
+python scripts/generate_synthetic_data.py
 ```
 
 The script writes all CSV files into `data/` and prints row counts after generation.

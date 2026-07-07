@@ -105,7 +105,7 @@ def build_progress_svg(status_rows: list[dict[str, object]], current_rows: list[
         STYLE,
         rect(0, 0, 1280, 720, "#f7f7f7", "#f7f7f7", 0),
         rect(18, 18, 84, 34, "#ffffff", "#ff3030", 10),
-        text(60, 41, "DEMO", "brand", "middle"),
+        text(60, 41, "CASE STUDY", "brand", "middle"),
         rect(116, 18, 316, 34, "#ffffff", "#ff3030", 10),
         text(274, 41, "FACADE PROGRESS OVERVIEW", "title-red", "middle"),
     ]
@@ -183,7 +183,7 @@ def build_issue_svg(status_rows: list[dict[str, object]], total_units: int) -> s
         STYLE,
         rect(0, 0, 1280, 720, "#f7f7f7", "#f7f7f7", 0),
         rect(18, 18, 84, 34, "#ffffff", "#ff3030", 10),
-        text(60, 41, "DEMO", "brand", "middle"),
+        text(60, 41, "CASE STUDY", "brand", "middle"),
         rect(116, 18, 316, 34, "#ffffff", "#ff3030", 10),
         text(274, 41, "FACADE ISSUES OVERVIEW", "title-red", "middle"),
         rect(512, 18, 116, 34, "#ffffff", "#ff3030", 10),

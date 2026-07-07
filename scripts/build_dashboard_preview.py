@@ -14,7 +14,7 @@ ASSETS = ROOT / "assets"
 
 
 def read_csv(name: str) -> list[dict[str, str]]:
-    with (DATA / name).open("r", encoding="utf-8", newline="") as handle:
+    with (DATA / name).open("r", encoding="utf-8-sig", newline="") as handle:
         return list(csv.DictReader(handle))
 
 
@@ -162,7 +162,7 @@ def main() -> None:
   {svg_card(775, 170, "Delayed Deliveries", f"{delayed_deliveries:,}", "Positive delivery delay", "#f2eefc")}
   <text x="70" y="342" class="label">Completion by project</text>
   {''.join(bars)}
-  <text x="70" y="575" class="small">Generated from deterministic fake CSV data. Safe for public portfolio review.</text>
+  <text x="70" y="575" class="small">Generated from deterministic synthetic CSV data. Safe for public portfolio review.</text>
 </svg>
 """
     (ASSETS / "dashboard-preview.svg").write_text(svg, encoding="utf-8")

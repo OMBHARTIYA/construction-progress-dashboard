@@ -18,7 +18,7 @@
 </style>
 <rect x="0" y="0" width="1280" height="720" rx="0" fill="#f7f7f7" stroke="#f7f7f7"/>
 <rect x="18" y="18" width="84" height="34" rx="10" fill="#ffffff" stroke="#ff3030"/>
-<text x="60" y="41" class="brand" text-anchor="middle">DEMO</text>
+<text x="60" y="41" class="brand" text-anchor="middle">CASE STUDY</text>
 <rect x="116" y="18" width="316" height="34" rx="10" fill="#ffffff" stroke="#ff3030"/>
 <text x="274" y="41" class="title-red" text-anchor="middle">FACADE ISSUES OVERVIEW</text>
 <rect x="512" y="18" width="116" height="34" rx="10" fill="#ffffff" stroke="#ff3030"/>

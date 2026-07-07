@@ -1,6 +1,6 @@
 # KPI Proof Summary
 
-Generated: 2026-07-07 13:25 UTC
+Generated: 2026-07-07 14:31 UTC
 
 This file summarizes the synthetic reporting layer generated from the construction-progress dataset. It is intended as portfolio-safe proof of data modeling, KPI definition, and dashboard thinking.
 
