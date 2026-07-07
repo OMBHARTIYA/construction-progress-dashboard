@@ -6,6 +6,22 @@ The project generates a realistic fictional construction-progress dataset as CSV
 
 ![Synthetic construction dashboard preview](./assets/dashboard-preview.svg)
 
+## Facade Dashboard Case Study
+
+The repo also includes a synthetic facade-progress case study based on the same type of reporting pattern I use for model-linked construction analytics.
+
+![Synthetic facade progress preview](./assets/facade-progress-preview.svg)
+
+It demonstrates:
+
+- facade unit status workflow tracking
+- current vs historical status reporting
+- block, level, stage, elevation, and unit filters
+- issue category and issue timeline reporting
+- 3D model-linked reporting concepts using public-safe synthetic model keys
+
+The original professional dashboard cannot be shared publicly, so this repo uses generated data and generated visuals only.
+
 ## Portfolio Safety
 
 Everything in this repository is generated from scratch for demonstration purposes.
@@ -69,6 +85,7 @@ Generate the reviewer-friendly KPI proof pack:
 
 ```bash
 python scripts/build_dashboard_preview.py
+python scripts/build_facade_case_study.py
 ```
 
 This writes:
@@ -76,6 +93,11 @@ This writes:
 - `data/reporting_kpis.csv`
 - `docs/kpi-proof-summary.md`
 - `assets/dashboard-preview.svg`
+- `data/facade_status_workflow_summary.csv`
+- `data/facade_current_status_snapshot.csv`
+- `docs/facade-dashboard-case-study.md`
+- `assets/facade-progress-preview.svg`
+- `assets/facade-issues-preview.svg`
 
 ## Recommended Power BI Flow
 
@@ -88,6 +110,8 @@ This writes:
 
 - [KPI proof summary](./docs/kpi-proof-summary.md): generated headline metrics and project completion summary.
 - [Dashboard preview SVG](./assets/dashboard-preview.svg): static visual preview created from the synthetic CSV outputs.
+- [Facade dashboard case study](./docs/facade-dashboard-case-study.md): synthetic reconstruction of a model-linked facade progress workflow.
+- [Facade Power BI architecture](./docs/facade-powerbi-architecture.md): generic semantic model and report-page design pattern.
 - [Data model](./docs/data-model.md): star-schema relationships suitable for Power BI.
 
 ## Example Reporting Questions
