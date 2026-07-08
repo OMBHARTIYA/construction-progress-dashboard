@@ -6,6 +6,18 @@ The project generates a realistic construction-progress style dataset as CSV fil
 
 ![Synthetic construction dashboard preview](./assets/dashboard-preview.svg)
 
+## Reviewer Value
+
+This repo is designed to show the analyst workflow behind a construction progress dashboard:
+
+- convert operational event history into reporting-ready fact and dimension tables
+- define latest-status and plan-vs-actual KPI logic
+- document Power BI page design and DAX measure patterns
+- validate outputs before stakeholder handover
+- communicate confidential production experience through generated data only
+
+The value is not the sample data itself; the value is the repeatable reporting approach, semantic model, validation checks, and dashboard thinking.
+
 ## Facade Dashboard Case Study
 
 The repo also includes a synthetic facade-progress case study based on the same type of reporting pattern I use for model-linked construction analytics.
@@ -28,7 +40,7 @@ Everything in this repository is generated from scratch for public portfolio rev
 
 It does not include:
 
-- Real company or client data
+- Employer or customer-owned operational records
 - Real project names or IDs
 - Real API URLs or internal paths
 - Real BIM or model file references
